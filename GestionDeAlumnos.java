@@ -16,14 +16,14 @@ public class GestionDeAlumnos {
 
     public void mostrarEstudiantes() {
         estudiantes.forEach((nombre, calificacion) -> 
-            System.out.println("Nombre: " + nombre + ", Calificación: " + calificacion));
+            System.out.println("Nombre: " + nombre + ", Calificacion: " + calificacion));
     }
 
     public void buscarEstudiantesConCalificacionMayorOIgualA80() {
         estudiantes.entrySet().stream()
             .filter(entry -> entry.getValue() >= 80)
             .forEach(entry -> 
-                System.out.println("Nombre: " + entry.getKey() + ", Calificación: " + entry.getValue()));
+                System.out.println("Nombre: " + entry.getKey() + ", Calificacion: " + entry.getValue()));
     }
 
     public void eliminarEstudiante(String nombre) {
@@ -46,15 +46,15 @@ public class GestionDeAlumnos {
             System.out.println("4. Eliminar estudiante");
             System.out.println("5. Mostrar lista de estudiantes");
             System.out.println("6. Salir");
-            System.out.print("Elige una opción: ");
+            System.out.print("Elige una opcion: ");
             opcion = scanner.nextInt();
-            scanner.nextLine(); // Consumir el salto de línea
+            scanner.nextLine(); // Consumir el salto de linea
 
             switch (opcion) {
                 case 1:
                     System.out.print("Nombre del estudiante: ");
                     String nombre = scanner.nextLine();
-                    System.out.print("Calificación del estudiante: ");
+                    System.out.print("Calificacion del estudiante: ");
                     int calificacion = scanner.nextInt();
                     gestion.registrarEstudiante(nombre, calificacion);
                     break;
@@ -77,7 +77,7 @@ public class GestionDeAlumnos {
                     System.out.println("Saliendo...");
                     break;
                 default:
-                    System.out.println("Opción no válida");
+                    System.out.println("Opcion no valida");
             }
         } while (opcion != 6);
 
