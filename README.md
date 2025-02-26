@@ -11,9 +11,9 @@ Este proyecto es un sistema en Java que permite gestionar una lista de estudiant
 
 ## Integrantes
 
-- Denis
-- Carlos
-- Uziel
+- Denis Colon
+- Carlos Campos
+- Uziel Alejandro
 - Eliana
 
 ## Características
@@ -34,5 +34,5 @@ Para ejecutar este proyecto, sigue estos pasos:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/nombre-del-repositorio.git
+   git clone https://github.com/3-Casi-Programadores/Sistema-de-Gestion-de-Estudiantes.git
 
