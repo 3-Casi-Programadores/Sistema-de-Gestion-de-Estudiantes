@@ -1,4 +1,4 @@
-# Sistema de Gestión de Estudiantes - Versión 1
+# Sistema de Gestión de Estudiantes - Versión 1.0
 
 ## Descripción
 
@@ -22,6 +22,9 @@ Este proyecto es un sistema en Java que permite gestionar una lista de estudiant
 - Uso de `ArrayList` para gestionar las listas de estudiantes.
 - Uso de `Streams` y `Lambda` para filtrar los estudiantes con calificaciones >= 80.
 - Interacción con el usuario mediante `Scanner`.
+
+## Lenguaje de Programación
+![Java Logo](https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg)
 
 ## Requisitos
 
