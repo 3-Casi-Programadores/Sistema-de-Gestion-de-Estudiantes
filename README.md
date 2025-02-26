@@ -24,7 +24,7 @@ Este proyecto es un sistema en Java que permite gestionar una lista de estudiant
 - Interacción con el usuario mediante `Scanner`.
 
 ## Lenguaje de Programación
-![Java Logo](https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg)
+<img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java Logo" width="100">
 
 ## Requisitos
 
