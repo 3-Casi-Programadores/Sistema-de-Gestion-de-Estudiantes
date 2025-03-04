@@ -16,9 +16,11 @@ Este proyecto es un sistema en Java que permite gestionar una lista de estudiant
 
 ## Integrantes
 
+- Elis Gonzalez
 - Denis Colon
 - Carlos Campos
 - Uziel Alejandro
+
 
 
 ## Características
